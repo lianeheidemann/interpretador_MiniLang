@@ -1,4 +1,4 @@
-# Interpretador de Linguagem Python
+# Interpretador de uma Linguagem Própria Simplificada, Implementado em Python
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
 Este projeto implementa um **interpretador de linguagem simplificada**, construído em Python, com suporte a análise léxica, interpretação de código e execução de estruturas básicas como variáveis, expressões e condicionais.
