@@ -5,7 +5,7 @@ Este projeto implementa um **interpretador de linguagem simplificada**, constru�
 
 ---
 
-## ⚙️ Visão geral
+## Visão geral
 
 O sistema funciona como uma mini-linguagem própria, contendo:
 
@@ -19,35 +19,39 @@ O sistema funciona como uma mini-linguagem própria, contendo:
 
 ---
 
-## 🧠 Como o projeto funciona
+## Como o projeto funciona
 
 ### 🔤 Lexer
 O código é convertido em tokens usando expressões regulares, identificando:
-
+```
 - Números
 - Identificadores
 - Palavras-chave (`var`, `if`, `else`, `main`)
 - Operadores (`+ - * / == != >= <=`)
 - Símbolos (`{ } ( ) ; :`)
+```
 
 ---
 
 ### 🧩 Interpretador
 Após a tokenização, o interpretador:
-
+```
 - Executa comandos sequencialmente
 - Gerencia variáveis em memória (`self.vars`)
 - Avalia expressões matemáticas e lógicas
 - Controla fluxo de execução (`if/else`, blocos)
-
+```
 ---
 
-## 🖼️ Ilustração 
+## Ilustração 
+<img width="1282" height="951" alt="1000327435" src="https://github.com/user-attachments/assets/6aa5eb8b-e30b-42b7-aa31-db2599218bd1" />
+
+## Execução
 <img width="1503" height="1047" alt="1000327405" src="https://github.com/user-attachments/assets/7845c744-dedf-44c8-a9a7-45ef8112bde8" />
 
 ---
 
-## 📌 Exemplo de código suportado
+## Exemplo de código suportado
 
 ```txt
 var x:int = 10;
