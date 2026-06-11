@@ -1,16 +1,23 @@
 # PyLite Interpreter
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
-Este projeto implementa um interpretador de uma linguagem própria simplificada, desenvolvido em Python, com suporte a análise léxica, parsing e execução de estruturas básicas como variáveis, expressões e condicionais.
+---
+
+## 🧠 Interpretador de Linguagem Simplificada
+
+Este projeto implementa um interpretador de uma linguagem própria simplificada, desenvolvido em Python. Ele realiza análise léxica, parsing e execução de estruturas básicas como variáveis, expressões e condicionais.
+
+O objetivo é demonstrar, de forma prática, conceitos fundamentais de construção de linguagens e interpretadores.
 
 ---
 
-## Visão geral
+## 📌 Visão Geral
 
-O sistema funciona como uma mini-linguagem própria, contendo:
+A linguagem implementada inclui:
 
 - Análise léxica (Lexer com Regex)
-- Interpretador manual (Parser + Executor)
+- Parsing (interpretação da estrutura do código)
+- Execução de comandos (Executor)
 - Variáveis dinâmicas
 - Operações matemáticas
 - Operadores lógicos
@@ -19,30 +26,24 @@ O sistema funciona como uma mini-linguagem própria, contendo:
 
 ---
 
-## Como o projeto funciona
+## ⚙️ Arquitetura
 
-**🔤 Lexer**
-O código é convertido em tokens usando expressões regulares, identificando:
-```
-- Números
-- Identificadores
-- Palavras-chave (`var`, `if`, `else`, `main`)
-- Operadores (`+ - * / == != >= <=`)
-- Símbolos (`{ } ( ) ; :`)
-```
+Fluxo de execução:
 
----
-**🧩 Interpretador**
-Após a tokenização, o interpretador:
+```text
+Lexer → Parser → Executor
 ```
-- Executa comandos sequencialmente
-- Gerencia variáveis em memória (`self.vars`)
-- Avalia expressões matemáticas e lógicas
-- Controla fluxo de execução (`if/else`, blocos)
-```
----
 
 ## Ilustração 
 <img width="1520" height="937" alt="1000327436" src="https://github.com/user-attachments/assets/39d2c662-fe9e-4fa0-8c13-8142a1fbac12" />
 
 ---
+
+
+
+
+
+
+
+
+
